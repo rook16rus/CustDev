@@ -112,7 +112,7 @@ body {
 
 .promo {
     padding-top: 88px;
-    padding-bottom: 300px;
+    padding-bottom: 329px;
 }
 
 .promo-wrapper {
@@ -210,4 +210,53 @@ p.rate-author {
     padding: 15px 40px;
     margin-top: 25px;
     margin-left: 15px;
+}
+
+.about {
+    padding-top: 105px;
+    padding-bottom: 250px;
+    background: url("../img/about-bg.svg") no-repeat 40px 24px;
+    background-size: 100%;
+}
+
+.about-title {
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+
+.about-list {
+    display: flex;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+
+    width: 225px;
+    margin-right: 75px;
+}
+
+.about-item-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2F80ED;
+}
+
+.about-item-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 143%;
+
+    margin: 10px 0 0 0;
+}
+
+.plan {
+    padding-top: 130px;
 }
