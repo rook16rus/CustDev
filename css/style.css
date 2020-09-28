@@ -164,7 +164,7 @@ p.rate-author {
     margin-bottom: 7px;
 }
 
-.more {
+.rate-block .more {
     font-size: 10px;
     line-height: 195%;
     color: #2F80ED;
@@ -259,4 +259,72 @@ p.rate-author {
 
 .plan {
     padding-top: 130px;
+    padding-bottom: 95px;
+}
+
+.plan-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.plan-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 600px;
+    margin: 0 -88px -50px 0;
+    padding: 0;
+}
+
+.plan-item {
+    display: flex;
+    flex-direction: column;
+
+    width: 212px;
+    margin: 0 88px 50px 0;
+}
+
+.plan-item-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2F80ED;
+}
+
+.plan-item-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 143%;
+
+    margin: 10px 0 0 0;
+}
+
+.plan .more {
+    display: inline-block;
+
+    margin: 90px 0 0 0;
+    border-bottom: 1px dashed #2F80ED;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143%;
+    color: #2F80ED;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.result {
+    padding-top: 188px;
+    background: blue;
+}
+
+.result-title {
+    margin: 0 0 42px 0;
+    color: white;
+}
+
+.result-list {
+
 }
