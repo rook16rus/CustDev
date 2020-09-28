@@ -217,6 +217,23 @@ p.rate-author {
     padding-bottom: 250px;
     background: url("../img/about-bg.svg") no-repeat 40px 24px;
     background-size: 100%;
+
+    position: relative;
+}
+
+.about::after {
+    content: "";
+
+    width: 231px;
+    height: 231px;
+    border-radius: 50%;
+    background: radial-gradient(at center, #fff 0%, #CADEF9 50%);
+    box-shadow: 0 0 10px 10px rgba(119, 157, 255, 0.3);
+    filter: blur(20px);
+
+    position: absolute;
+    top: 0;
+    right: 30px;
 }
 
 .about-title {
@@ -260,6 +277,22 @@ p.rate-author {
 .plan {
     padding-top: 130px;
     padding-bottom: 95px;
+    position: relative;
+}
+
+.plan::after {
+    content: "";
+
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: radial-gradient(at center, #6AAAFF 0%, #2F80ED 100%);
+    filter: blur(5px);
+    box-shadow: 0 0 5px 20px rgba(47, 128, 237, 0.3);
+
+    position: absolute;
+    top: 205px;
+    right: 534px;
 }
 
 .plan-title {
@@ -427,6 +460,7 @@ p.rate-author {
     outline: none;
     font-size: 0;
     background: rgba(47, 128, 237, 0.5);
+    cursor: pointer;
 }
 
 .play-button::before {
@@ -571,6 +605,38 @@ p.rate-author {
 .price {
     padding-top: 200px;
     padding-bottom: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.price::before {
+    content: "";
+
+    width: 141px;
+    height: 141px;
+    border-radius: 50%;
+    background: radial-gradient(at center, #6AAAFF 0%, #2F80ED 100%), #FFFFFF;
+    box-shadow: 0 10px 50px rgba(119, 157, 255, 0.3);
+    filter: blur(10px);
+
+    position: absolute;
+    left: -50px;
+    bottom: 25px;
+}
+
+.price::after {
+    content: "";
+
+    width: 231px;
+    height: 231px;
+    border-radius: 50%;
+    background: radial-gradient(at center, #fff 0%, #CADEF9 50%);
+    box-shadow: 0 0 10px 10px rgba(119, 157, 255, 0.3);
+    filter: blur(20px);
+
+    position: absolute;
+    top: 50px;
+    right: -70px;
 }
 
 .price-title {
@@ -599,6 +665,32 @@ p.rate-author {
     border-radius: 10px;
 
     text-align: center;
+    position: relative;
+}
+
+.price-item-benefit::after {
+    content: "Выгодно";
+
+    width: 90px;
+    height: 90px;
+    padding-top: 38px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #2F80ED;
+
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 124%;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+
+    position: absolute;
+    top: -47px;
+    right: -20px;
+    z-index: 2;
+
 }
 
 .price-text {
