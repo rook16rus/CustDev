@@ -46,6 +46,7 @@ body {
 .main-header-wrapper {
     display: flex;
     justify-content: space-between;
+    padding-left: 35px;
 }
 
 .cities-list {
@@ -53,7 +54,6 @@ body {
 
     list-style: none;
     margin: 0;
-    margin-left: 35px;
     padding: 0;
 }
 
@@ -104,7 +104,7 @@ body {
     font-weight: bold;
 }
 
-.header-button {
+.header-button, .footer-button {
     background-color: white;
     color: #2F80ED;
     align-self: flex-end;
@@ -631,4 +631,40 @@ p.rate-author {
 
 .main-footer {
     margin-top: 55px;
+    padding-bottom: 45px;
+    background: #2F80ED;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-copyright-row {
+    background: #185FBF;
+    margin-top: 45px;
+}
+
+.footer-copyright-row .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright-row a {
+    display: inline-block;
+    padding: 30px 0;
+
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-copyright-row a:nth-of-type(2) {
+    margin-left: auto;
+    margin-right: 45px;
 }
